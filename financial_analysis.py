@@ -1,6 +1,4 @@
 import pandas as pd
-import docx
-import openpyxl
 from docxtpl import DocxTemplate
 
 asset = pd.read_csv('balance.csv',index_col=0)
